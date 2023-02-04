@@ -12,6 +12,6 @@ class Solution {
             }
         }
 
-        return previousTen == 1 ? [1] + result : result
+        return [1] + result
     }
 }
