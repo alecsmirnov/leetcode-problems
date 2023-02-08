@@ -1,7 +1,7 @@
 class Solution {
     func addBinary(_ a: String, _ b: String) -> String {
         var maxString: String
-        var minString: String
+        let minString: String
 
         if a.count > b.count {
             maxString = a
